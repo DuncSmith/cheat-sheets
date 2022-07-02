@@ -1,0 +1,2 @@
+# Diagnose slowness
+env STARSHIP_LOG=trace starship timings
