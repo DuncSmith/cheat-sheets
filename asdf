@@ -26,3 +26,9 @@ asdf plugin-add direnv
 asdf direnv setup --shell zsh --version latest
 asdf direnv local
 
+# Terraform setup and use
+asdf plugin-add terraform https://github.com/Banno/asdf-hashicorp.git
+asdf list-all terraform
+asdf install terraform 1.2.9
+asdf global terraform  1.2.9
+terraform --version
