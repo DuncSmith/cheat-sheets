@@ -16,6 +16,10 @@ asdf list ruby
 # Use a version
 asdf local nodejs latest
 asdf global nodejs latest
+direnv reload # if using direnv, use below
+
+# Use the direnv plugin to set the local version
+asdf direnv local ruby 3.2.0
 
 # Force a reshim
 rm -rf ~/.asdf/shims && asdf reshim
